@@ -1,0 +1,134 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    width: 100vh;
+    margin: 0;
+    background: black;
+    display: flex;
+}
+
+#imagemBodyRight img {
+    width: 1175px;
+    height: 780px;
+}
+
+#ladoEsquerdo {
+    width: 720px;
+    height: 780px;
+    z-index:1000;git
+}
+
+#logo img {
+    width: 389px;
+    height: 94px;
+    margin: 50px 0 0 30px;
+    /*border: white 1px solid;*/
+}
+
+#textos{
+    width: 647px;
+    height: 102px;
+    margin: 50px 36px;
+    /*border: white 1px solid;*/
+}
+
+#texto1 {
+    width: 566px;
+    height: 30.44px;
+    color: #08C05E;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#texto2 {
+    width: 517px;
+    height: 16px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 9px;
+}
+
+#texto3 {
+    width: 647px;
+    height: 38px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 9px;
+}
+
+#inputAndLegend {
+    width: 798px;
+    height: 84px;
+    margin: 50px 0 0 36px;
+    /*border: white 1px solid;*/
+}
+
+#textoInserirEmail {
+    width: 133px;
+    height: 19px;
+    color: #A8A8A8;
+    font-size: 14px;
+    font-weight: 500;
+    /*border: white 1px solid;*/
+}
+
+#inputAndButton {
+    width: 798px;
+    height: 48px;
+    margin-top: 17px;
+    display: flex;
+    /*border: white 1px solid;*/
+}
+
+#inputAndButton input {
+    width: 750px;
+    height: 48px;
+    border: none;
+    border-left: #08C05E 5px solid;
+}
+
+#inputAndButton img {
+    width: 48px;
+    height: 48px;
+    background: #8257E5;
+    border: #8257E5 1px solid;
+}
+
+#deixeMeLer {
+    width: 185px;
+    height: 24px;
+    margin: 50px 0 0 36px;
+    display: flex;
+    justify-content: space-between;
+    color: #8257E5;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+    /*border: white 1px solid;*/
+}
+
+#deixeMeLer p {
+    width: 167px;
+    height: 19px;
+    /*border: white 1px solid;*/
+}
+
+#deixeMeLer img {
+    width: 24px;
+    height: 24px;
+    /*border: green 1px solid;*/
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: #8257E5;
+    margin-top: 50px;
+    font-weight: 500;
+}
